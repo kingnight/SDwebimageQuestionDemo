@@ -1,0 +1,54 @@
+PODS:
+  - Expecta (1.0.6)
+  - KVOController (1.2.0)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - SDWebImage/Core (5.7.3)
+  - SDWebImage/MapKit (5.7.3):
+    - SDWebImage/Core
+  - SDWebImageWebPCoder (0.6.1):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.7)
+
+DEPENDENCIES:
+  - Expecta
+  - KVOController
+  - SDWebImage/Core (from `./`)
+  - SDWebImage/MapKit (from `./`)
+  - SDWebImageWebPCoder (from `https://github.com/SDWebImage/SDWebImageWebPCoder.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - KVOController
+    - libwebp
+
+EXTERNAL SOURCES:
+  SDWebImage:
+    :path: "./"
+  SDWebImageWebPCoder:
+    :branch: master
+    :git: https://github.com/SDWebImage/SDWebImageWebPCoder.git
+
+CHECKOUT OPTIONS:
+  SDWebImageWebPCoder:
+    :commit: 84c97db988a0cc81cf419828bc9606a5a2b26a06
+    :git: https://github.com/SDWebImage/SDWebImageWebPCoder.git
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  SDWebImage: 9fb8190491434d2652530112fa88a99b48b3364b
+  SDWebImageWebPCoder: d0dac55073088d24b2ac1b191a71a8f8d0adac21
+
+PODFILE CHECKSUM: 1d0c89c61b0b5e56a4c8f238a2d02638b66875b7
+
+COCOAPODS: 1.8.4
